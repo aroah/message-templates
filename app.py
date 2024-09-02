@@ -1,5 +1,5 @@
 import streamlit as st
-from transformers import pipeline
+
 from openai import OpenAI # used to access openai api
 import json # used to create a json to store snippets and embeddings
 from numpy import dot # used to match user questions with snipp
