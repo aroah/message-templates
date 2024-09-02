@@ -66,6 +66,7 @@ def detect_SHAFT_violation(context):
 
 # Streamlit app interface
 st.title('Sanitize my message')
+st.info("Disclaimer: This is a Minimum Viable Product (MVP) built in a few hours and is provided 'as-is' for testing and feedback purposes only. It may contain bugs, errors, or incomplete features.")
 #question = """JACKSONVILLE BEACH, Fla. - Flyers for "Drunk Day at the Beach" drew hundreds of young people to Jacksonville Beach on Sunday before the three separate shootings that left three people injured and one person dead. People at the beach report multiple guns were used in the shootings at jacksonville beach during busy St. Patrick's Day """
 st.markdown(
     """
