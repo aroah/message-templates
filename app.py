@@ -14,9 +14,9 @@ gpt_endpoint = "https://api.openai.com/v1/chat/completions"
 def get_response_from_gpt(context, prompt, timeout_parameter=30):
     gpt_response=""
 
-    params = {"model": "gpt-3.5-turbo", "temperature":0, "messages":[{"role": "user", "content": prompt + context}]}
+    params = {"model": "gpt-4o-mini", "temperature":0, "messages":[{"role": "user", "content": prompt + context}]}
     try:
-        # Call the OpenAI GPT-3 API to generate a location answer
+        # Call the OpenAI GPT API to generate a location answer
         # Set the request headers
         headers = {
             "Content-Type": "application/json",
