@@ -33,7 +33,7 @@ def get_response_from_gpt(context, prompt, timeout_parameter=30):
 
 def rewrite_message_with_gpt(context):
     gpt_response = ""
-    prompt = "rewrite message that avoids any references to SHAFT - Sex, Hate, Alcohol, Firearms, and Tobacco  words "
+    prompt = "rewrite message and remove any references to SHAFT - Sex, Hate, Alcohol, Firearms, and Tobacco  words. Do not add any additional information not in original message "
 
 
     try:
